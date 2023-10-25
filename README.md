@@ -1,5 +1,7 @@
 # Modular-I2CRJ45
 an oxrs compatible I2CRJ45 board in a modular format
 
-## WARNING
-2023-05-07 just noticed the power switch p channel fets are backwards. I'll issue a fix ASAP
+2023-10-25 version 220 was created to fix p fet issue
+also updated JLCPCB PCBa files for the modular I2CRJ45 and port PWR extention
+
+port PWR extention is a remote switch that allows you to turn ports on and off. the use of a 1.25mm jst cable could eb used instead, simply with pin 5 being GND connect the others to this and a port will be ON
